@@ -1,0 +1,127 @@
+body {
+
+	background:#181818;
+	font-family:"Microsoft YaHei",Arial, Verdana, Helvetica, Geneva, Sans-Serif;
+    font-size:14px;
+    height:100%;
+    /*color:#1C3D51;*/
+    color:#555;
+    line-height:1.125em;
+    
+}
+
+.main_div {
+	margin:0 auto;
+	position:relative;
+	background-color:#666;
+	width:1024px;
+	height:768px;
+	
+}
+
+.top_links {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+	
+}
+.top_links li {
+	float:left;
+}
+
+.top_links span {
+    color:#CCC;
+	padding:10px 10px 10px 10px;
+}
+
+.top_navigation{
+	margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    
+}
+
+.top_navigation li {
+	float:left;
+	vertical-align:bottom;
+}
+
+.top_navigation span {
+	color: #3FF;
+    position: relative;
+    font-size: 20px;
+    padding:10px 10px 10px 10px;
+}
+
+.top_navigation input {
+    height:20px;
+}
+
+.main_menu {
+	height:100%;
+	list-style-type: none;
+	font-size:20px;
+	color:#FFF;
+}
+
+.main_menu li {
+    list-style-type: none;
+    color: #3FF;
+}
+
+.main_menu li div {
+	float:left;
+	width:100px;
+}
+.main_menu li input {
+	color:#666;
+	font-size:20px;
+}
+
+.introduction {
+	position:relative;
+	left:40px;
+	clear:both;
+	color:#666;
+	top:50px;
+}
+
+.introduction_option {
+	position:relative;
+	width:30%;
+	height:250px;
+	float:left;
+	border-radius:9px;
+	background-color:#CCC;
+}
+
+.introduction_option_title {
+    text-align:center;
+    background:#555;
+    width:100%;
+    border-top-left-radius:9px;
+    border-top-right-radius:9px;
+    padding:5px 0px 0px 0px;
+    color:white;
+    height: 25px;
+}
+
+.introduction_option_text {
+    text-align:left;
+}
+
+.introduction_option_text ul {
+	list-style-type:circle;
+}
+
+.introduction_option_text li{
+    list-style-type:disc;
+	color:#555;
+	font-size:16px;
+}
+
+.login_button {
+	width:160px;
+	cursor:pointer;
+	padding:10px 10px 10px 10px;
+}
